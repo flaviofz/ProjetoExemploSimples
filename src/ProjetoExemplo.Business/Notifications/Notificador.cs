@@ -18,7 +18,7 @@ namespace ProjetoExemplo.Business.Notifications
         public List<Notificacao> ObterNotificacoes()
             => _notificacoes;
 
-        public bool TemNotificacoes()
+        public bool TemNotificacao()
             => _notificacoes.Any();
     }
 }
