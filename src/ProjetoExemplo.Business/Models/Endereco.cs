@@ -15,9 +15,9 @@ namespace ProjetoExemplo.Business.Models
             Estado = estado;
         }
 
-        public string Cep { get; set; }
-        public string Bairro { get; set; }
-        public string Cidade { get; set; }
-        public string Estado { get; set; }
+        public string Cep { get; private set; }
+        public string Bairro { get; private set; }
+        public string Cidade { get; private set; }
+        public string Estado { get; private set; }
     }
 }
